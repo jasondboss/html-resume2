@@ -157,6 +157,9 @@ h5 {
     h1 {
         font-size: 4rem;
     }  
+    .btn {
+         padding-bottom: 20px;
+    }
     .project {
         margin:10px 0 10px 0;
         width: 90%;
