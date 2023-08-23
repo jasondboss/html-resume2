@@ -1,0 +1,169 @@
+.intro {
+    text-align: center;
+    background-color:aliceblue;
+    height: 350px;
+}
+h1 {
+    padding: 60px 0 70px;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.dev {
+    color: rgb(22, 103, 224);
+}
+body {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+.Hero {
+    text-align: center;
+    margin-top: 50px;
+}
+.img {
+    border-radius: 50%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+#p {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 20px;
+}
+.green {
+    color: rgb(101, 211, 101);
+}
+.main { 
+    margin: 0;
+    
+}
+.web {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Project {
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 400px 200px;
+    gap: 20px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 {
+    font-size: 20px;
+    font-weight:600;
+}
+h2 {
+    font-weight: 600;
+    padding-top: 30px;
+    color: rgb(132, 201, 201);
+}
+.flex {
+    display: flex;
+    justify-content: center; 
+}
+.fle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 230px;
+    margin-bottom: 0;
+
+}
+.about { 
+    background-color: whitesoke;
+}
+.background {
+    background-color: whitesmoke;
+    margin-top: 30px;
+}
+.me {
+    padding: 0 5% 0 5%;
+}
+h5 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.bt {
+    background-color: rgb(133, 218, 213);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, ;
+    padding: 10px;
+    text-decoration: none;
+}
+.btn {
+    padding-bottom: 15px;
+}
+.footer {
+    background: aliceblue;
+    grid-column-start: -3;
+    grid-column-end:-1 ;
+    
+}
+.footer-lin {  
+    padding-top: 30px;
+    margin: 0;
+}
+.link {
+    text-decoration: none;
+    color:rgb(93, 155, 151);
+    padding: 20px;;
+}
+.copy {
+    margin: 0%;
+    padding: 20px 0 30px 0;
+}
+@media (max-width: 650px) {
+    .Project {
+        display: block;
+    }
+    .web {
+        font-size: 20px;
+    }
+    .copy {
+        font-size: 15px;
+    }
+    .me {
+        padding: 0;
+    }
+    .fle {
+        display: block;
+    }
+    #p {
+        padding: 0;
+    }
+    .hello {
+        background-color: whitesmoke;
+    }
+    p {
+        font-size: 17px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h5 {
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 4rem;
+    }  
+    .project {
+        margin:10px 0 10px 0;
+        width: 90%;
+    }
+}
+@media (max-width: 400px) {
+    .hello {
+        height: 250px;
+    }
+}
