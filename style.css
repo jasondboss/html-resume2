@@ -92,7 +92,7 @@ h5 {
     background-color: rgb(133, 218, 213);
     border-radius: 10px;
     color: white;
-    font-size: 10px;
+    font-size: 14px;
     font-family: 'Courier New', Courier, ;
     padding: 10px;
     text-decoration: none;
@@ -142,7 +142,7 @@ h5 {
         background-color: whitesmoke;
     }
     p {
-        font-size: 17px;
+        font-size: 15px;
         font-family:'Times New Roman', Times, serif;
     }
     .footer {
@@ -165,8 +165,4 @@ h5 {
         width: 90%;
     }
 }
-@media (max-width: 400px) {
-    .hello {
-        height: 250px;
-    }
-}
+
